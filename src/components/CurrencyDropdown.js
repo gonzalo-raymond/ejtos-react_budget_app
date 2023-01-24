@@ -30,7 +30,7 @@ const CurrencyDropdown = (props) => {
                 Currency ({currency} {name})
             </button>
 
-            <ul className="dropdown-menu" style={{backgroundColor: "#93e499", border: "2px solid green", width: "200px", fontSize: "20px", padding: "5px 0"}}>
+            <ul className="dropdown-menu" style={{backgroundColor: "#93e499", border: "2px solid green", width: "195px", fontSize: "18px", padding: "5px 0"}}>
                 <li><button style={{padding: "5px 25px"}} className="dropdown-item" value="$" name="Dollar" onClick={(e) => chgCurrency(e.target.value, e.target.name)}>$ Dollar</button></li>
                 <li><button style={{padding: "5px 25px"}} className="dropdown-item" value="£" name="Pound" onClick={(e) => chgCurrency(e.target.value, e.target.name)}>£ Pound</button></li>
                 <li><button style={{padding: "5px 25px"}} className="dropdown-item" value="€" name="Euro" onClick={(e) => chgCurrency(e.target.value, e.target.name)}>€ Euro</button></li>
