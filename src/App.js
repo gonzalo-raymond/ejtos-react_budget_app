@@ -1,9 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/js/bootstrap"
 import AllocationForm from "./components/AllocationForm";
 // eslint-disable-next-line
 import ExpenseItem from "./components/ExpenseItem";
 import ExpenseList from "./components/ExpenseList";
+import CurrencyDropdown from "./components/CurrencyDropdown";
 import ExpenseTotal from "./components/ExpenseTotal";
 import RemainingBudget from "./components/Remaining";
 import Budget from "./components/Budget";
@@ -17,7 +19,7 @@ const App = () => {
 
                 <h1 className='mt-3'>Company's Budget Allocation</h1>
 
-                <div className='row mt-3'>
+                <div className='row mt-3 '>
 
                     <div className='col-sm'>
                         <Budget />
@@ -30,6 +32,11 @@ const App = () => {
                     <div className='col-sm'>
                         <ExpenseTotal />
                     </div>
+
+                    <div className='col-sm'>
+                        <CurrencyDropdown />
+                    </div>
+
                 </div>
 
                 <h3 className='mt-3'>Allocation</h3>
