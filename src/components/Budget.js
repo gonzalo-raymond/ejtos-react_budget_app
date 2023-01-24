@@ -13,7 +13,7 @@ const Budget = () => {
 
         if(newBudget > 20000){
 
-            alert("The value of the budget cannot exceed 20.000");
+            alert("The value of the budget cannot exceed " + currency + "20.000");
 
         }else if(newBudget < totalExpenses){
 
