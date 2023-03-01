@@ -33,7 +33,7 @@ const Budget = () => {
         <div style={{paddingRight: "0", display: "flex", alignItems: "center", justifyContent: "space-evenly"}} className='alert alert-secondary'>
             
             <label htmlFor="budget">Budget: </label>
-            <div>
+            <div style={{width: "250px", height: "30px"}}>
                 <span style={{fontSize: "18px", fontWeight: "600", marginInlineStart: "15px", marginRight: "2px", paddingTop: "3px"}}>{currency}</span>
                 <input type="number" id="budget" style={{padding: "2px", marginRight: "0"}} 
                     value={budget} 
